@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.login-container {
+	text-align: center;
+}
+
+.profile-option {
+	display: inline-block;
+	width: 200px; /* Ajusta el ancho según tus necesidades */
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	position: relative;
+}
+
+.profile-option img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	/* Opcional: Añade bordes redondeados a las imágenes */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	/* Opcional: Añade sombra a las imágenes */
+}
+
+.profile-option span {
+	display: block;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.profile-option:hover {
+	transform: scale(1.05);
+}
